@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MDCAT CRACK | Entry Test 2027</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#5b3df5;color:#fff;padding-bottom:30px}
+.top{max-width:480px;margin:auto;padding:20px 15px;text-align:center}
+h1{font-size:32px;margin:15px 0}
+.subjects{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:15px 0}
+.subjects button{background:rgba(255,255,255,.18);color:#fff;border:none;padding:10px 18px;border-radius:30px;font-size:16px}
+.subjects button.active{background:#fff;color:#5b3df5;font-weight:bold}
+.card{background:#fff;color:#222;border-radius:20px;padding:18px;margin:15px auto;max-width:480px}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.btns a{flex:1;text-align:center;text-decoration:none;color:#fff;padding:12px;border-radius:12px;font-weight:bold}
+.wa{background:#22c55e}.contact{background:#1e293b}
+.notice{border:2px solid #fbbf24;border-radius:16px;padding:16px;margin-top:16px}
+.notice h3{color:#1e3a8a}
+.test{background:#f1f5ff;border-radius:14px;padding:14px;margin-top:12px}
+.test button{background:#5b3df5;color:#fff;padding:10px 18px;border:none;border-radius:20px;font-weight:bold;margin-top:8px}
+.qcard{background:#f1f5ff;border-radius:14px;padding:14px;margin-top:12px}
+.opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid #ddd;padding:11px;border-radius:10px;margin-top:8px;font-size:15px}
+.opt.sel{background:#5b3df5;color:#fff}
+.nav{display:flex;justify-content:space-between;margin-top:12px}
+.nav button{padding:10px 18px;border:none;border-radius:20px;background:#1e293b;color:#fff;font-weight:bold}
+#quizBox{display:none}
+</style>
+</head>
+<body>
+<div class="top">
+<h1>MDCAT CRACK Mock Test Portal</h1>
+<p>MDCAT CRACK 2027<br>Prepare smarter. Practice better.</p>
+<div class="subjects">
+<button onclick="showTest('eng',this)">English</button>
+<button onclick="showTest('bio',this)">Biology</button>
+<button onclick="showTest('chem',this)">Chemistry</button>
+<button onclick="showTest('phy',this)">Physics</button>
+<button onclick="showTest('mock',this)" class="active">Mock Test</button>
+</div>
+</div>
+<div class="card">
+<h2 style="text-align:center">SAJID SIR</h2>
+<p style="text-align:center;color:#5b3df5;font-weight:bold">Mock Test Coordinator</p>
+<div class="btns"><a class="wa" href="https://whatsapp.com/channel/0029VbBp48a60eBp3wccg83Q">WhatsApp Channel</a><a class="contact" href="https://wa.me/923070267161">Contact Us</a></div>
+<div class="notice"><h3>📋 IMPORTANT NOTICE - Registration Required</h3><p style="margin-top:8px">To access all Mock Tests, students must complete Registration Form first.<br><br>Team: Sir Sajid | Sir Shaban | Sir Bilal | Sir Fahad<br><br><b style="color:red">Note: Only 1 Attempt Allowed. Dobara Test Nahi Hoga.</b></p></div>
+
+<!-- ENGLISH - Ab yahan test NAHI hai, sirf Coming Soon -->
+<div id="eng" class="tests" style="display:none"><div class="test"><b>English Mock Test 1</b><p>Coming Soon</p></div></div>
+<div id="bio" class="tests" style="display:none"><div class="test"><b>Biology Mock Test 1</b><p>Coming Soon</p></div></div>
+<div id="chem" class="tests" style="display:none"><div class="test"><b>Chemistry Mock Test 1</b><p>Coming Soon</p></div></div>
+<div id="phy" class="tests" style="display:none"><div class="test"><b>Physics Mock Test 1</b><p>Coming Soon</p></div></div>
+
+<!-- MOCK TEST - Asli Test Sirf Yahan Hai -->
+<div id="mock" class="tests">
+<div class="test"><b>MDCAT Test - 160 MCQs Test (1)</b><p>160 MCQS | 140 Minutes</p><p style="color:red;font-weight:bold">⚠️ Only 1 Attempt Allowed</p><button onclick="startQuiz(2)">Start Test →</button><p id="attemptMsg" style="color:red;font-weight:bold;margin-top:8px"></p></div>
+</div>
+
+<div id="quizBox">
+<div id="timer" style="text-align:center;font-weight:bold;color:red;font-size:18px;margin-top:10px">Time Left</div>
+<div id="quizArea"></div>
+<div class="nav"><button onclick="prevQ()">⬅ Previous</button><button onclick="nextQ()">Next ➡</button></div>
+<div style="text-align:center;margin-top:12px"><button onclick="submitQuiz()" style="background:#16a34a;color:#fff;padding:12px 25px;border:none;border-radius:20px;font-weight:bold">Submit Test</button></div>
+</div>
+<div id="result" style="display:none;text-align:center"></div>
+</div>
+
+<script>
+function showTest(id,btn){
+var all=document.querySelectorAll('.tests');
+for(var i=0;i<all.length;i++){all[i].style.display='none';}
+document.getElementById(id).style.display='block';
+var b=document.querySelectorAll('.subjects button');
+for(var i=0;i<b.length;i++){b[i].classList.remove('active');}
+btn.classList.add('active');
+}
+window.onload=function(){
+if(localStorage.getItem('mdcat_done')==='yes'){
+document.getElementById('attemptMsg').innerText='❌ Aap Ka 1 Attempt Ho Chuka Hai. Dobara Test Nahi De Sakte.';
+}
+};
+var Q2RAW=[
+["BIOLOGY: Which organelle is powerhouse of cell?","Mitochondria","Lysosome","Ribosome","Nucleus"],
+["Suicidal bag of cell?","Lysosome","Mitochondria","Golgi body","Vacuole"],
+["Site of protein synthesis?","Ribosome","Nucleus","Lysosome","Mitochondria"],
+["Fluid mosaic model by?","Singer and Nicolson","Watson and Crick","Mendel","Darwin"],
+["Which organelles have own DNA?","Mitochondria and Chloroplast","Nucleus and Ribosome","Lysosome and Golgi","Vacuole and Nucleus"],
+["pH of lysosome?","Acidic, about 5","Basic, about 9","Neutral, 7","Basic, 10"],
+["Monomer of protein?","Amino acid","Glucose","Fatty acid","Nucleotide"],
+["Bond between amino acids?","Peptide bond","Glycosidic bond","Hydrogen bond","Ionic bond"],
+["Monomer of starch?","Glucose","Fructose","Amino acid","Fatty acid"],
+["End product of glycolysis?","Pyruvate","Glucose","Acetyl CoA","Lactate"],
+["Glycolysis occurs in?","Cytoplasm","Mitochondria","Nucleus","Chloroplast"],
+["Krebs cycle occurs in?","Mitochondrial matrix","Cytoplasm","Thylakoid","Stroma"],
+["Net ATP from glycolysis?","2 ATP","4 ATP","8 ATP","36 ATP"],
+["Total ATP from one glucose?","36-38 ATP","2 ATP","8 ATP","10 ATP"],
+["Light reaction occurs in?","Thylakoid / Grana","Stroma","Cytoplasm","Mitochondria"],
+["Dark reaction occurs in?","Stroma","Grana","Cytoplasm","Nucleus"],
+["Main photosynthetic pigment?","Chlorophyll a","Chlorophyll b","Carotene","Xanthophyll"],
+["If Adenine 30%, Guanine?","20%","30%","40%","10%"],
+["DNA double helix by?","Watson and Crick","Singer and Nicolson","Mendel","Darwin"],
+["Sugar in DNA?","Deoxyribose","Ribose","Glucose","Fructose"],
+["Sugar in RNA?","Ribose","Deoxyribose","Glucose","Sucrose"],
+["Base NOT in DNA?","Uracil","Thymine","Adenine","Guanine"],
+["Base NOT in RNA?","Thymine","Uracil","Adenine","Guanine"],
+["Transcription occurs in?","Nucleus","Ribosome","Cytoplasm","Mitochondria"],
+["Translation occurs in?","Ribosome","Nucleus","Golgi body","Lysosome"],
+["Codon made of?","3 nitrogenous bases","2 bases","4 bases","1 base"],
+["Start codon?","AUG","UAA","UAG","UGA"],
+["Stop codons?","UAA, UAG, UGA","AUG, UAA, UAG","AAA, UUU, GGG","AUG only"],
+["Enzyme unzips DNA?","Helicase","Ligase","Polymerase","Amylase"],
+["Enzyme joins Okazaki fragments?","DNA Ligase","Helicase","Primase","RNA Polymerase"],
+["Chromosomes in somatic cell?","46","23","44","48"],
+["Chromosomes in gamete?","23","46","22","44"],
+["Down syndrome trisomy of?","Chromosome 21","Chromosome 18","Chromosome 13","Chromosome X"],
+["Klinefelter syndrome?","XXY","XO","XXX","XYY"],
+["Turner syndrome?","XO","XXY","XXX","XY"],
+["Haemophilia is?","Sex-linked recessive","Autosomal dominant","Autosomal recessive","Sex-linked dominant"],
+["Functional unit of kidney?","Nephron","Alveolus","Neuron","Glomerulus"],
+["Functional unit of lung?","Alveolus","Nephron","Neuron","Bronchus"],
+["Functional unit of nervous system?","Neuron","Nephron","Alveolus","Axon"],
+["Insulin secreted by?","Beta cells","Alpha cells","Delta cells","Liver"],
+["Glucagon secreted by?","Alpha cells","Beta cells","Delta cells","Thyroid"],
+["Thyroxine needs?","Iodine","Iron","Calcium","Zinc"],
+["Goitre due to deficiency of?","Iodine","Iron","Vitamin D","Insulin"],
+["Diabetes insipidus due to?","ADH","Insulin","Thyroxine","Glucagon"],
+["Diabetes mellitus due to?","Insulin","ADH","Thyroxine","Adrenaline"],
+["Pacemaker of heart?","SA Node","AV Node","Purkinje fibres","Bundle of His"],
+["Normal heart beat?","72 per minute","60 per minute","100 per minute","50 per minute"],
+["Universal blood donor?","O Negative","AB Positive","A Positive","O Positive"],
+["Universal blood recipient?","AB Positive","O Negative","A Negative","B Positive"],
+["Oxygen carrying pigment?","Haemoglobin","Myoglobin","Melanin","Keratin"],
+["Largest WBC?","Monocyte","Lymphocyte","Neutrophil","Eosinophil"],
+["Smallest WBC?","Lymphocyte","Monocyte","Basophil","Neutrophil"],
+["Antibodies produced by?","B-Lymphocytes","T-Lymphocytes","RBC","Platelets"],
+["Vaccine first discovered by?","Edward Jenner","Louis Pasteur","Robert Koch","Fleming"],
+["Hormone for fight or flight?","Adrenaline","Insulin","Thyroxine","ADH"],
+["Brain part for balance?","Cerebellum","Cerebrum","Medulla","Thalamus"],
+["Brain part for intelligence?","Cerebrum","Cerebellum","Medulla","Pons"],
+["Gap between neurons?","Synapse","Axon","Dendrite","Myelin"],
+["Neurotransmitter?","Acetylcholine","Insulin","Adrenaline","Thyroxine"],
+["Myelin sheath formed by?","Schwann cells","Neurons","Astrocytes","Microglia"],
+["Disease by Plasmodium?","Malaria","Dengue","Typhoid","Cholera"],
+["Vector of malaria?","Female Anopheles mosquito","Aedes mosquito","Culex mosquito","Housefly"],
+["Vector of dengue?","Aedes mosquito","Anopheles mosquito","Culex mosquito","Sandfly"],
+["AIDS caused by?","HIV virus","Bacteria","Fungus","Protozoa"],
+["Bacteria causing TB?","Mycobacterium tuberculosis","E. coli","Staphylococcus","Salmonella"],
+["Site of fertilization?","Fallopian tube","Uterus","Ovary","Vagina"],
+["Implantation occurs in?","Uterus","Fallopian tube","Ovary","Cervix"],
+["Gestation period?","280 days","270 days","300 days","180 days"],
+["First milk after birth?","Colostrum","Lactose","Casein","Plasma"],
+["CHEMISTRY: Neutrons in C-14?","8","6","14","12"],
+["Azimuthal quantum no. for d?","2","0","1","3"],
+["Shape of sp3 carbon?","Tetrahedral, 109.5°","Linear, 180°","Trigonal, 120°","Pyramidal, 107°"],
+["Strongest H-bonding?","HF","HCl","HBr","HI"],
+["pH of 0.01 M HCl?","2","1","3","12"],
+["pH + pOH = ?","14 at 25°C","7","10","0"],
+["Buffer resists change in?","pH","Temperature","Pressure","Volume"],
+["Oxidation no. of Cr in K2Cr2O7?","+6","+3","+7","+2"],
+["If pressure increases, equilibrium shifts to?","Fewer moles side","More moles side","No shift","Catalyst side"],
+["For exothermic, temp increase shifts to?","Reactants / Left","Products / Right","No shift","Catalyst side"],
+["Unit of rate constant 1st order?","s^-1","mol/L/s","L/mol/s","mol^-1"],
+["Most electronegative?","Fluorine","Oxygen","Chlorine","Nitrogen"],
+["Ionic character max in?","CsF","NaCl","LiF","KCl"],
+["Bond order of N2?","3","1","2","0"],
+["Amphoteric oxide?","Al2O3","Na2O","CO2","SO2"],
+["Gas turns lime water milky?","CO2","O2","N2","H2"],
+["Common ion effect decreases?","Solubility","Temperature","Pressure","Volume"],
+["Enthalpy of neutralization?","-57.3 kJ/mol","-10 kJ/mol","-100 kJ/mol","+57.3 kJ/mol"],
+["Entropy increases in?","Solid to gas","Gas to solid","Liquid to solid","Gas to liquid"],
+["Functional group aldehyde?","-CHO","-COOH","-OH","-CO-"],
+["Functional group carboxylic acid?","-COOH","-CHO","-OH","-NH2"],
+["Markovnikov rule applied to?","Addition of HX to unsymmetrical alkene","Addition to alkyne only","Substitution","Elimination"],
+["IUPAC of CH3-CHO?","Ethanal","Ethanol","Ethanone","Ethanoic acid"],
+["Phenol is?","Acidic, more acidic than alcohol","Basic","Neutral","Strong base"],
+["Tollen's test for?","Aldehyde","Ketone","Alcohol","Carboxylic acid"],
+["Fehling's test red ppt with?","Aldehyde","Ketone","Alcohol","Ether"],
+["Dehydration of ethanol at 170°C gives?","Ethene","Ethane","Ethyne","Diethyl ether"],
+["Benzene undergoes?","Electrophilic substitution","Addition","Elimination","Free radical"],
+["Hybridization in benzene?","sp2","sp","sp3","sp3d"],
+["Strongest acid?","CCl3COOH","CH3COOH","HCOOH","All same"],
+["Catalyst in Haber process?","Iron","V2O5","Nickel","Platinum"],
+["Catalyst in Contact process?","V2O5","Iron","Nickel","Platinum"],
+["Formula of glucose?","C6H12O6","C6H10O5","C12H22O11","C6H6"],
+["Cannizzaro given by?","Aldehyde with no alpha H","Aldehyde with alpha H","Ketone","Alcohol"],
+["Aldol condensation by?","Aldehyde / Ketone with alpha H","Aldehyde with no alpha H","Alcohol","Ether"],
+["pKa of strong acid?","Low / Negative","High","Zero","Positive large"],
+["PHYSICS: Body with uniform velocity, acceleration?","Zero","Constant","Increasing","Decreasing"],
+["Angle 90°, A.B = ?","Zero","Maximum","1","-1"],
+["Work by centripetal force?","Zero","Maximum","Negative","Positive"],
+["1 Joule = ?","10^7 erg","10^5 erg","10^3 erg","10^6 erg"],
+["Escape velocity Earth?","11.2 km/s","9.8 km/s","5 km/s","15 km/s"],
+["Gas compressed adiabatically, temp?","Increases","Decreases","Remains same","Becomes zero"],
+["Carnot efficiency depends on?","Temperatures of source and sink only","Pressure","Volume","Mass"],
+["Unit of angular momentum?","kg m²/s","kg m/s","Joule","Watt"],
+["Frequency doubled, time period?","Half","Double","4 times","Same"],
+["At resonance, impedance?","Minimum and equal to R","Maximum","Zero","Infinite"],
+["Speed of sound max in?","Steel / Solid","Air","Water","Vacuum"],
+["Doppler effect for?","Both sound and light","Sound only","Light only","Neither"],
+["Young's modulus for?","Longitudinal stress and strain","Shear stress","Volume stress","All"],
+["Projectile max height, vertical velocity?","Zero","Maximum","Constant","Negative"],
+["Momentum doubled, K.E?","4 times","2 times","8 times","Same"],
+["1 eV = ?","1.6 x 10^-19 J","1.6 x 10^-18 J","9.1 x 10^-31 J","3 x 10^8 J"],
+["Dimension of Power?","[ML²T^-3]","[ML²T^-2]","[MLT^-2]","[ML²T^-1]"],
+["Charge in magnetic field perpendicular, path?","Circular","Straight","Parabolic","Elliptical"],
+["SI unit magnetic flux?","Weber","Tesla","Henry","Gauss"],
+["Lenz's law conservation of?","Energy","Charge","Momentum","Mass"],
+["Transformer works on?","Mutual induction, AC only","Self induction, DC","Electrostatics","DC only"],
+["Step-up transformer, voltage up but?","Current decreases","Current increases","Power increases","Frequency increases"],
+["Capacitance increases if distance?","Decreases","Increases","Remains same","Doubles"],
+["Two capacitors in series, total?","Decreases","Increases","Remains same","Becomes zero"],
+["Resistance increases if temp?","Increases (for conductor)","Decreases","Remains same","Becomes zero"],
+["Kirchhoff 1st law conservation of?","Charge","Energy","Momentum","Mass"],
+["Kirchhoff 2nd law conservation of?","Energy","Charge","Momentum","Mass"],
+["Wheatstone balanced when?","P/Q = R/S","P+Q = R+S","P=Q","R=S"],
+["Energy of photon?","E = hf","E = mc²","E = mv²","E = mgh"],
+["Photoelectric effect proves?","Particle nature of light","Wave nature","Dual nature","None"],
+["De Broglie wavelength?","λ = h / mv","λ = mv / h","λ = h x mv","λ = h / m"],
+["Bohr radius hydrogen?","0.53 Å","1.5 Å","2.5 Å","0.1 Å"],
+["N-type majority carriers?","Electrons","Holes","Protons","Ions"],
+["P-type majority carriers?","Holes","Electrons","Protons","Neutrons"],
+["Zener diode used as?","Voltage regulator","Rectifier","Amplifier","Oscillator"],
+["Half-life means?","Half","Double","Zero","Quarter"],
+["Nuclear fission is?","Heavy nucleus into two lighter","Light into heavy","Electron","Proton"],
+["Nuclear fusion at?","Very high temp and pressure","Low temp","Room temp","Vacuum only"],
+["Unit of radioactivity?","Becquerel","Tesla","Weber","Henry"],
+["Torque max when angle?","90°","0°","180°","45°"],
+["Moment of inertia depends on?","Mass and distribution","Velocity","Force","Time"],
+["Time period pendulum depends on?","Length and g only","Mass","Amplitude","Temperature"],
+["Length 4 times, time period?","2 times","4 times","Half","Same"],
+["Beats produced due to?","Interference of two waves slightly different freq","Diffraction","Refraction","Reflection"],
+["Velocity doubled, momentum?","Double, K.E 4 times","Double, K.E double","4 times, K.E double","Same"],
+["ENGLISH: He is senior ___ me.","to","than","from","with"],
+["Scarcely had he entered ___ it started raining.","when","than","then","that"],
+["Indefatigable means?","Never tired","Very tired","Lazy","Weak"],
+["He said, 'I have done my work.' Indirect?","He said that he had done his work.","He said that he has done his work.","He said that he did his work.","He said that he will do his work."],
+["To bite the dust means?","To be defeated","To eat dust","To run fast","To be happy"],
+["Correct spelling?","Accommodate","Accomodate","Acommodate","Accomodete"],
+["He is accused ___ theft.","of","for","with","to"],
+["Antonym of Obscure?","Clear","Dark","Hidden","Vague"],
+["If I ___ a bird, I would fly.","were","was","am","be"],
+["Noun form of Decide?","Decision","Decide","Deciding","Decided"]
+];
+var cur=0, ans=[], Q=[], total=0, timeLeft=0, timerInt=null;
+function startQuiz(n){
+if(localStorage.getItem('mdcat_done')==='yes'){
+alert('Aap Ka 1 Attempt Ho Chuka Hai. Dobara Test Nahi De Sakte!');
+return;
+}
+Q=[];
+for(var i=0;i<Q2RAW.length;i++){
+var r=Q2RAW[i];
+var opts=[r[1],r[2],r[3],r[4]];
+opts.sort(function(){return Math.random()-0.5;});
+var ci=0;
+for(var j=0;j<4;j++){if(opts[j]===r[1]) ci=j;}
+Q.push([r[0],opts[0],opts[1],opts[2],opts[3],ci]);
+}
+timeLeft=180*60;
+total=Q.length;
+var tests=document.querySelectorAll('.tests');
+for(var i=0;i<tests.length;i++){tests[i].style.display='none';}
+document.getElementById('quizBox').style.display='block';
+cur=0; ans=new Array(total).fill(-1);
+renderQ();
+clearInterval(timerInt);
+timerInt=setInterval(function(){
+timeLeft--;
+var m=Math.floor(timeLeft/60), s=timeLeft%60;
+document.getElementById('timer').innerText="Time Left: "+m+":"+(s<10?"0"+s:s);
+if(timeLeft<=0){clearInterval(timerInt); submitQuiz();}
+},1000);
+window.scrollTo(0,0);
+}
+function renderQ(){
+var q=Q[cur];
+var html='<div class="qcard"><h3>Q'+(cur+1)+' / '+total+': '+q[0]+'</h3>';
+for(var i=0;i<4;i++){
+var cls = ans[cur]===i ? 'opt sel' : 'opt';
+html+='<button class="'+cls+'" onclick="selectOpt('+i+')">'+String.fromCharCode(65+i)+'. '+q[1+i]+'</button>';
+}
+html+='</div>';
+document.getElementById('quizArea').innerHTML=html;
+}
+function selectOpt(i){ans[cur]=i; renderQ();}
+function nextQ(){if(cur<total-1){cur++; renderQ();}}
+function prevQ(){if(cur>0){cur--; renderQ();}}
+function submitQuiz(){
+clearInterval(timerInt);
+localStorage.setItem('mdcat_done','yes');
+var score=0;
+for(var i=0;i<Q.length;i++){if(ans[i]===Q[i][5]) score++;}
+var pct=Math.round(score/total*100);
+document.getElementById('quizBox').style.display='none';
+var r=document.getElementById('result');
+r.style.display='block';
+r.innerHTML='<h2>Your Result</h2><p style="font-size:40px;font-weight:bold;margin:10px 0">'+score+' / '+total+'</p><p style="font-size:20px">'+pct+'%</p><p style="margin:12px 0">Team: Sir Sajid | Sir Shaban | Sir Bilal | Sir Fahad</p><p style="color:red;font-weight:bold">Your Attempt Is Done. Dobara Test Nahi Hoga.</p><br><a href="https://whatsapp.com/channel/0029VbBp48a60eBp3wccg83Q" style="color:#16a34a;font-weight:bold">Join WhatsApp Channel →</a>';
+window.scrollTo(0,0);
+}
+</script>
+</body>
+</html>
